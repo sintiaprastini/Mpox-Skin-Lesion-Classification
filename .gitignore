@@ -1,0 +1,18 @@
+# Abaikan Dataset karena ukurannya besar (sesuai ketentuan tugas)
+Mpox_Dataset/
+*.zip
+*.xlsx
+*.jpg
+
+# Abaikan bobot model terlatih (.pt, .pth, .h5, .caffe) sesuai ketentuan tugas
+Checkpoints/
+*.pt
+*.pth
+*.h5
+*.caffe
+
+# Abaikan virtual environment & cache Python
+venv/
+__pycache__/
+*.pyc
+.vscode/
